@@ -3,14 +3,23 @@
 body {
   width: 100vw;
   height: 100vh;
+  margin: 0;
+  padding: 0;
   display: grid;
   align-items: center;
   justify-items: center;
 }
 
+.logo {
+  height: 70px
+}
+.logo img {
+  height: 100%;
+  padding: 10px 20px;
+}
+
 .perfil__restaurant {
-  display: flex;
-  flex-direction: column;
+ 
   font-family: 'Poppins', sans-serif;
 }
 
@@ -29,12 +38,13 @@ textarea{
 }
 
 .perfil__restaurant--img {
-  width: 100px;
+  width: 70px;
 }
 
 .perfil__restaurant--upload {
   color: #3187b8;
   text-decoration: none;
+  font-size: .7em;
 }
 
 .perfil__restaurant--form{
@@ -94,4 +104,67 @@ textarea:focus, input:focus{
 
 input:focus::placeholder {
   color: transparent;
+}
+
+/* feed */
+
+.stories {
+  display: flex;
+  gap: 20px;
+}
+
+.story img , .feed__post--data img{
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #3187b8;
+}
+
+.feed {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+  font-size: .9em;
+}
+
+.feed__post {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.feed__post--data {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.feed__post--info img {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.feed__post--comment {
+  width: 300px;
+}
+
+.feed__post--comment textarea {
+  width: 300px;
+}
+
+.feed__post--like-share {
+  display: flex;
+  gap: 15px;
+}
+i {
+  font-size: 19px;
+  color: #3187b8;
+}
+
+footer {
+  display:flex;
+  justify-content: space-around;
 }
