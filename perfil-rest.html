@@ -4,36 +4,35 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/codeka-style.css">
   <title>Perfil Restaurants</title>
 </head>
 <body>
-
   <div class="perfil">
     <div class="perfil__restaurant">
-      <img src="/images/perfil.png" alt="" class="perfil__restaurant--img">
-      <a class="perfil__restaurant--upload" href="#">Subir logo</a>
+      <div class="wrap">
+        <img src="/images/perfil.png" alt="" class="perfil__restaurant--img"/>
+        <a class="perfil__restaurant--upload" href="#">Subir logo</a>
+      </div>
       <div class="perfil__restaurant--form">
         <form action="">
-          <label for="">Razon Social</label>
-          <input placeholder="Escribe aqui">
-          <label for="">RUC</label>
-          <input placeholder="Escribe aqui">
-          <label for="">Nombre Comercial</label>
-          <input placeholder="Escribe aqui">
-          <label for="">Nombre Comercial</label>
-          <textarea rows="5" cols="20"></textarea>
-          <label for="">Nombre Comercial</label>
-          <select name="select">
+          <input placeholder="Razon Social">
+          <input placeholder="RUC">
+          <input placeholder="Nombre Comercial">
+          <label for="">Descripcion</label>
+          <textarea rows="4" cols="20"></textarea>
+          <label for="">Categorias</label>
+          <select name="select" placeholder="Categorias">
             <option value="fastfood">Fast Food</option>
             <option value="fastfood">Pizzas y Pastas</option>
             <option value="fastfood">Comida hindu</option>
           </select>
-          <label for="">Direccion</label>
-          <input placeholder="Escribe aqui">
-          <label for="">Horario de atencion</label>
-          <input placeholder="Escribe aqui">
+          <label for=""></label>
+          <input placeholder="Direccion">
+          <label for=""></label>
+          <input placeholder="Horario de atencion">
         </form>
-        <button>Siguiente</button>
+        <button class="perfil__restaurant--btn">Siguiente</button>
       </div>
     </div>
   </div>

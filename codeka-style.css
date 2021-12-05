@@ -1,1 +1,97 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.perfil__restaurant {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+textarea{
+  font-family: 'Poppins', sans-serif;
+  border: 1px solid #3187b8;
+  border-radius: 7px;
+}
+
+.perfil__restaurant--img {
+  width: 100px;
+}
+
+.perfil__restaurant--upload {
+  color: #3187b8;
+  text-decoration: none;
+}
+
+.perfil__restaurant--form{
+  width: 300px;
+}
+
+.perfil__restaurant--form form{
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px;
+  gap: 12px;
+}
+
+.perfil__restaurant--form form label{
+  font-size: .8em;
+}
+
+.perfil__restaurant--form input {
+  border: none;
+  border-bottom: 1.5px solid #3187b8;
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+}
+
+select {
+  font-family: 'Poppins', sans-serif;
+  border: 1px solid #3187b8;
+  background-color: #fff;
+  border-radius: 7px;
+}
+
+.perfil__restaurant--btn {
+  display: block;
+  margin: 0 auto;
+  padding: 8px 17px;
+  transition: .2s all ease-in-out;
+  background-color: #dd5065;
+  color: #fff;
+  border: 1px solid#dd5065;
+  border-radius: 7px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.perfil__restaurant--btn:hover {
+  background-color: #0d3b58;
+  color: #fff;
+  border: 1px solid #0d3b58;
+}
+
+::placeholder {
+  color: #000;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
