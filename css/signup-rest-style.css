@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+}
+
+textarea{
+  font-family: 'Poppins', sans-serif;
+  border: 1px solid #3187b8;
+  border-radius: 7px;
+}
+select {
+  font-family: 'Poppins', sans-serif;
+  border: 1px solid #3187b8;
+  background-color: #fff;
+  border-radius: 7px;
+}
+.hero-text {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+  height: 70px;
+  align-items: center;
+  justify-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.logo img {
+  height: 100%;
+  margin: auto;
+
+}
+
+.main-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+}
+.signup__restaurant-wrapper {
+  margin-top: 2em;
+}
+.signup__restaurant-inner-wrapper {
+
+}
+.signup__restaurant--form {
+    width: 300px;
+    font-family: 'Poppins', sans-serif;
+}
+.signup__restaurant--form form {
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0px 25px 0px;
+    gap: 12px;
+}
+
+
+.signup__restaurant--form form label{
+    font-size: .8em;
+  }
+  
+  .signup__restaurant--form input {
+    border: none;
+    border-bottom: 1.5px solid #3187b8;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+  }
+  
+  
+  .signup__restaurant--btn {
+    display: block;
+    margin: 0 auto;
+    padding: 8px 17px;
+    transition: .2s all ease-in-out;
+    background-color: #dd5065;
+    color: #fff;
+    border: 1px solid#dd5065;
+    border-radius: 7px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .signup__restaurant--btn:hover {
+    background-color: #0d3b58;
+    color: #fff;
+    border: 1px solid #0d3b58;
+  }
+
+    /*Next Button*/
+    .signup__restaurant--next-btn {
+      display: block;
+      margin: 0 auto;
+      padding: 8px 17px;
+      transition: .2s all ease-in-out;
+      background-color: #dd5065;
+      color: #fff;
+      border: 1px solid#dd5065;
+      border-radius: 7px;
+      font-family: 'Poppins', sans-serif;
+    }
+    
+    .signup__restaurant--next-btn:hover {
+      background-color: #0d3b58;
+      color: #fff;
+      border: 1px solid #0d3b58;
+    }
+  
+  ::placeholder {
+    color: #000;
+  }
+  
+  textarea:focus, input:focus{
+    outline: none;
+  }
+  
+  input:focus::placeholder {
+    color: transparent;
+  }
+  .go-to-signin {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 12px;
+  }
+  .footer__text-wrapper {
+    margin-top: 5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
